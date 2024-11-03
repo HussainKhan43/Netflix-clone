@@ -358,10 +358,24 @@ a {
         bottom: 100px; 
         margin-left: 0; 
         padding: 0 10px; 
+        margin-top: 120px;
     }
 
+    section.first > div :nth-child(1) {
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .first span{
+        margin-top: 40px;
+
+    }
     .faq {
         padding: 20px; 
         font-size: 20px; 
+    }
+    .faq h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 25px;
     }
 }
